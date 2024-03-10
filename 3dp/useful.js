@@ -9,7 +9,7 @@ p5.disableFriendlyErrors = true
 
 function setupUseful() {
     setupRandom()
-    createButton('save').mousePressed(saveNamed)
+    // createButton('save').mousePressed(saveNamed)
     cols = setupColors(colSubset)
     vec = createVector
     W = width
